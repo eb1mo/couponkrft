@@ -1,0 +1,46 @@
+/* Custom styles to ensure better responsiveness */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    .table {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h2 {
+        font-size: 1.125rem;
+    }
+}
